@@ -1,6 +1,11 @@
-Download the dataset from https://moleculenet.org/datasets-1.
-Then run 
-  python In_memory_dataset_whole_SMILE.py --dataset ${dataset}
-to preprocess the dataset.
-Train the model with 
-  python train_DMCA.py --dataset ${dataset} --batch_size ${batch_size} --epochs ${epoch_number} --n_tasks ${n_task} --random_seed ${random_seed}
+# DMCA Model Training
+
+This repository provides scripts for preprocessing molecular datasets and training a model using the **DMCA** framework.
+
+## Dataset Preparation
+
+1. Download the dataset from [MoleculeNet](https://moleculenet.org/datasets-1).
+2. Preprocess the dataset by running the following command:
+
+   ```bash
+   python In_memory_dataset_whole_SMILE.py --dataset ${dataset}

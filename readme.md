@@ -1,5 +1,8 @@
 # DMCA Model Training
 
+![Model Architecture](image/dual_cross_attention_encoder2.pdf)
+
+
 This repository provides scripts for preprocessing molecular datasets and training a model using the **DMCA** framework.
 
 ## Installation
